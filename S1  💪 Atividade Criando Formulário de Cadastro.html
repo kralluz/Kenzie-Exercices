@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S1 | 💪 Atividade: Criando Formulário de Cadastro</title>
+</head>
+<body>
+    <form action="ex.php">
+        <div id="nome">
+            <label for="iname">Nome: </label><br>
+            <input type="text" placeholder="nome completo">
+        </div>
+        <div id="mail">
+            <label for="iemail">E-mail: </label><br>
+            <input placeholder="seu e-mail aqui" type="email" id="iemail" name="email">
+        </div>
+        <div id="textar">
+            <label for="itextarea">Oque te motivou a participar do evento?</label><br>
+            <textarea name="areatext" id="itextarea" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <label for="select_module">Selecione o seu modulo: </label><br>
+        <select name="mod" id="imod">
+            <option value="mod1">Modulo 01</option>
+            <option value="mod2">Modulo 02</option>
+            <option value="mod3">Modulo 03</option>
+        </select> <br>
+
+        <div id="cadsenha">
+            <br>
+            <label for="isenha">Cadastre uma senha: </label><br>
+            <input type="password" name="senha" id="isenha">
+            <br>
+            <br>
+            <label for="iconfsenha">confirme a senha: </label><br>
+            <input type="password" name="confsenha" id="iconfsenha">
+        </div>
+
+        <div class="notifications_mail">
+            <p>Deseja receber novidades por email?</p>
+            <input type="radio" id="iyes" name="notifications" value="yes">
+            <label for="iyes">sim</label>
+            <input type="radio" id="ino" name="notifications" value="no">
+            <label for="ino">não</label>
+        </div>
+    </form>
+</body>
+</html>
