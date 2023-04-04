@@ -68,6 +68,8 @@ button {
     font-weight: bolder;
     font-size: medium;
     margin-top: 10px;
+    align-content:
+
 }
 
 button:hover {
@@ -78,4 +80,10 @@ button:active {
     background-color: #232eff;
     box-shadow: 0 1px #383838;
     transform: translateY(1px);
+   
+
+}
+
+a {
+    justify-content: ;
 }
