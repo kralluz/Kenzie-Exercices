@@ -1,0 +1,81 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.user {
+    padding: 50px;
+    margin: auto;
+    border  : 5px solid #e9ecef;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    
+}
+
+.formulario {
+    margin: auto;
+    width: 300px;
+}
+
+label#email_label {
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 20px;
+    margin: 10px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+#iemail {
+    border: 2px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    }
+
+    #iemail:hover {
+        border-color: #00a6ff;
+    }
+
+    #iemail:focus {
+        border-color: #0b50ff;
+        box-shadow: 1px 1px 6px #377dff;
+    }
+
+button {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #006fbe;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0B4CD6;
+}
+
+button:active {
+    background-color: #232eff;
+    box-shadow: 0 1px #383838;
+    transform: translateY(1px);
+}
